@@ -100,9 +100,28 @@ body {
     border-radius: 50%;
 }
 
+/* special products */
+.special-img span {
+    top: 20px;
+    right: 20px;
+}
+
+.special-list .btn {
+    padding: 8px 20px !important;
+}
+
+.special-img img {
+    transition: all 0.3s ease;
+}
+
+.special-img:hover img {
+    transform: scale(1.1);
+}
+
+
 
 /* media queries */
-@media (min-width: 99px) {
+@media (min-width: 990px) {
     .nav-item {
         border-bottom: none;
     }
