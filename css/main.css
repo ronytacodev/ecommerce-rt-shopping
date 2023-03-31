@@ -140,8 +140,10 @@ body {
     border-color: transparent !important;
 }
 
-
-
+/* about us */
+#about {
+    background-color: rgba(0, 0, 0, 0.05);
+}
 
 /* media queries */
 @media (min-width: 990px) {
