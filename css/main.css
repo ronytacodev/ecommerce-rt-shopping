@@ -69,6 +69,34 @@ body {
     border-color: var(--pink) !important;
 }
 
+/* title */
+.title h2::before {
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* collection */
+.active-filter-btn {
+    background-color: var(--pink) !important;
+    color: #fff !important;
+    border-color: var(--pink) !important;
+}
+
+.collection-img span {
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+
 /* media queries */
 @media (min-width: 99px) {
     .nav-item {
